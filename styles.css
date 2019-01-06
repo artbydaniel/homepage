@@ -1,0 +1,68 @@
+body {
+  font-family: "Chelsea Market";
+}
+
+h1 {
+  font-family: "Fredericka the Great";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* hr {
+  border: dotted #f9f9f9 10px;
+  border-bottom: none;
+  width: 25%;
+  margin: auto;
+} */
+
+.navbar {
+  background-color: #f9f9f9;
+  padding: 2% 20%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#about-me {
+  position: relative;
+  text-align: center;
+  padding: 10% 0 1%;
+}
+
+#artwork {
+  padding: 3% 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  padding: 1% 15% 2%;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+
+  p {
+    font-size: 150%;
+  }
+
+}
