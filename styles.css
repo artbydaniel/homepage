@@ -65,4 +65,8 @@ a:hover {
     font-size: 150%;
   }
 
+  .navbar {
+    width: 100%;
+  }
+
 }
